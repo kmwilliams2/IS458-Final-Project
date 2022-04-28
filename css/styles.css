@@ -4,6 +4,7 @@ body{
   background-color: #FFEEEE;
 }
 
+
 .salon-image{
   background-image: url(../images/salon2.jpeg);
   background-color: #FFEEEE;
@@ -21,5 +22,10 @@ body{
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
+  color:white;
+}
+
+.salon-services{
+  text-align:center;
   color:white;
 }
