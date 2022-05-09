@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  
+   <title> Book now page</title>
+    <link rel="stylesheet" type="text/css" href="website.css">
+
+
+
+<! –– For border in footer ––>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<! –– For rest of footer ––>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+	
+	
+<style>
+   body {background-color:#FFEEEE;} 
+    
+</style>
+
+	</head>
+	
+	
+	<body>
+	 <!-- Nav Bar -->
+    <nav class = "navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class = "navbar-brand" href = "#"><img src"css/logo.png" alt = "logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class = "collapse navbar-collapse" id = "navbarSupportedContent">
+
+      <ul class = "navbar-nav ms-auto">
+	  
+	   <li class = "nav-item">
+            <a class = "nav-link" href= ""> Homepage </a>
+        </li>
+	  
+	    <li class = "nav-item">
+            <a class = "nav-link" href= ""> About Us </a>
+        </li>
+	  
+        <li class = "nav-item">
+            <a class = "nav-link" href= ""> Contact Us </a>
+        </li>
+        <li class = "nav-item">
+            <a class = "nav-link" href= ""> Services </a>
+        </li>
+        <li class = "nav-item">
+            <a class = "nav-link" href= ""> Booking </a>
+        </li>
+      </ul>
+      </div>
+    </nav>
+	
+	<center> <h2> Book your appointment today! </h2> </center>
+	
+	
+	
+	<div class="container">
+  <form action="action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">First Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      </div>
+    </div>
+	
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Last Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      </div>
+    </div>
+	
+	<div class="row">
+      <div class="col-25">
+        <label for="phone#">Phone Number</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="phone#" name="Phone Number" placeholder="Phone number">
+      </div>
+    </div>
+	
+	<div class="row">
+      <div class="col-25">
+        <label for="email">Email Address</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="email" name="email" placeholder="Email Adress">
+      </div>
+    </div>
+	
+	
+    <div class="row">
+      <div class="col-25">
+        <label for="service">Service</label>
+      </div>
+      <div class="col-75">
+        <select id="service" name="serivce">
+		 <option value="select">Select Service</option>
+          <option value="Consultation">Consultation</option>
+          <option value="Wash and Blow Dry">Wash and Blow Dry</option>
+          <option value="Single Process Haircolor">Single Process Haircolor</option>
+		  <option value="Partial Foil">Partial Foil</option>
+		  <option value="Full Foil">Full Foil </option>
+		   <option value="Partial Balayage">Partial Balayage </option>
+		   <option value="Full Balayage">Full Balayage </option>
+			<option value="Men's Haircut">Men's Haircut </option>
+			<option value="Haircut & Blow Dry">Haircut & Blow Dry </option>
+			<option value="Face Frame Foil">Face Frame Foil </option>
+			<option value="Hair Extensions">Hair Extensions </option>
+        </select>
+      </div>
+    </div>
+	
+	
+	 <div class="row">
+      <div class="col-25">
+        <label for="service">Stylist</label>
+      </div>
+      <div class="col-75">
+        <select id="Stylist" name="Stylist">
+		<option value="Select stylist">Select Stylist </option>
+		<option value="any">Any Stylist </option>
+          <option value="Lisa">Lisa Weber</option>
+          <option value="Katrina">Katrina Smith</option>
+          <option value="Sydney">Sydney Adams</option>
+		  <option value="Lauren">Lauren Alves</option>
+        </select>
+      </div>
+    </div>
+	
+	
+	<div>
+    <label for="date">Enter a date and time for your booking:</label>
+    <input id="date" type="datetime-local" name="Select date and time">
+
+</div>
+	
+	
+	
+	
+	
+	
+	
+	 <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+	
+  </form>
+</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	 
+	<hr class="solid">
+	
+	<div class="footer-clean">
+        <footer>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>Hours</h3>
+                        <ul>
+                            <li>Mon. 9:00am - 7:00pm </li>
+                            <li>Tue. 9:00am - 7:00pm </li>
+                            <li>Wed. 9:00am - 7:00pm </li>
+							<li>Thurs. 9:00am - 7:00pm </li>
+							<li>Fri. 9:00am - 8:00pm </li>
+							<li>Sat. 9:00am - 6:00pm </li>
+							<li>Closed Sundays </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>Location</h3>
+                        <ul>
+                      
+                            <li>38 N. Charles Street Baltimore, MD 21210</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>Phone number</h3>
+                        <ul>
+                    
+                            <li>443-510-6600</li>
+                           
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a>
+                        <p class="copyright">K&M Salon © 2022</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+  
+
+	
+	</body>
+	</html>
