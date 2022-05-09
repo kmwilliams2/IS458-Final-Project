@@ -10,8 +10,21 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <!-- for website Css -->
+  <link rel="stylesheet" type="text/css" href="website.css">
+  
+  <! –– For border in footer ––>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<! –– For rest of footer ––>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+	
+  
+  
 <style>
-   body {background-color:#FFF6EA;} 
+   body {background-color:#FFEEEE;}
+
     
 </style>
 </head>
@@ -19,7 +32,7 @@
 <body>
     <!-- Nav Bar -->
     <nav class = "navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class = "navbar-brand" href = "#"><img src"css/logo.png" alt = "logo"></a>
+      <a class = "navbar-brand" href = "#"><img src"css/logo.png" alt = "K&M "></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -51,7 +64,7 @@
 	
  <center> <h1> About Us </h1> </center>
     
-<center> <p> Our salon opened in February of 2018. Owners Kayla and McKenna have dreamed of opening there own salon for as long as they could remember. They are so excited to share their passion of hair with the Balitmore community. Kayla and McKenna went to school together and persued beauty school after learning how to run their own business in business school. Their salon specializes in baylages, highlights/foils, extensions, and traditonal cuts and colors. Their staff are all highly appraised hair stylist whom they have worked with before. Get to know our hairstylist below and book your appointment with one of them today!  </p> </center> 
+<center> <p id="explanation"> Our salon opened in February of 2018. Owners Kayla and McKenna have dreamed of opening there own salon for as long as they could remember. They are so excited to share their passion of hair with the Balitmore community. Kayla and McKenna went to school together and persued beauty school after learning how to run their own business in business school. Their salon specializes in baylages, highlights/foils, extensions, and traditonal cuts and colors. Their staff are all highly appraised hair stylist whom they have worked with before. Get to know our hairstylist below and book your appointment with one of them today!  </p> </center> 
     
 
     
@@ -126,17 +139,17 @@
 	
 	
 	
-	<h3> Lisa Weber </h3>
-	<p> Lisa is from Pennsylvania and attended The Aveda Institute and completed their cosmotology program and has been a hair stylist ever since. She currently lives in Baltimore with her boyfriend and puppy. Lisa's specialty is brunette baylages and caramel highlight colors. She loves all the brunettes out there, but is a suck for a good blonde as well!  </p>
+	<center> <h3> Lisa Weber </h3> </center>
+	<p class="stylistExplanation"> Lisa is from Pennsylvania and attended The Aveda Institute and completed their cosmotology program and has been a hair stylist ever since. She currently lives in Baltimore with her boyfriend and puppy. Lisa's specialty is brunette baylages and caramel highlight colors. She loves all the brunettes out there, but is a suck for a good blonde as well!  </p>
 	
-	<h3> Katrina Smith </h3>
-	<p> Katrina is from Maryland and attended Empire Beauty School where she completed the cosmotology program. Katrina moved to Baltimore to do hair and has had many amazing opportunities to further her career as a hairstylist and we are so lucky she is with us here at our salon! Katrina's specialty is blondes, she loves giving a nice blonde baylage or working to keep the whole head blonde with all the highlights! </p>
+	<center> <h3> Katrina Smith </h3> </center>
+	<p class="stylistExplanation"> Katrina is from Maryland and attended Empire Beauty School where she completed the cosmotology program. Katrina moved to Baltimore to do hair and has had many amazing opportunities to further her career as a hairstylist and we are so lucky she is with us here at our salon! Katrina's specialty is blondes, she loves giving a nice blonde baylage or working to keep the whole head blonde with all the highlights! </p>
 	
-	<h3> Sydney Adams   </h3>
-	<p> Sydney is from New york and attended Pivot Point Academy Beauty School where she completed cosmotoogy school with a specialization in color and hair design. We are lucky Sydney moved to Baltimore to pursue her career with us. Book an appointment with Sydney for all of your hair coloring needs.  </p>
+	<center> <h3> Sydney Adams   </h3> </center>
+	<p class="stylistExplanation"> Sydney is from New york and attended Pivot Point Academy Beauty School where she completed cosmotoogy school with a specialization in color and hair design. We are lucky Sydney moved to Baltimore to pursue her career with us. Book an appointment with Sydney for all of your hair coloring needs.  </p>
 	
-	<h3> Lauren Alves </h3>
-	<p>Lauren is from Massachusetts and attended the Hollywood Institute of Beauty where she pursuded her career in cosmotology with a focus in salon success and hair coloring. Lauren moved to Baltimore with her husband and joined our hair family not too long ago. We are lucky to have her on our team as she helps grow our business and give each of her clients the hair of their dreams. </p>
+	<center> <h3> Lauren Alves </h3> </center>
+	<p class="stylistExplanation">Lauren is from Massachusetts and attended the Hollywood Institute of Beauty where she pursuded her career in cosmotology with a focus in salon success and hair coloring. Lauren moved to Baltimore with her husband and joined our hair family not too long ago. We are lucky to have her on our team as she helps grow our business and give each of her clients the hair of their dreams. </p>
 	
 	
 	
@@ -147,11 +160,48 @@
 	
 		
 			
- <footer id="footer">
-
-    <center> <p> © 2022, K&M Salon, Baltimore, MD 21210</p> </center>
-
-  </footer>
+<hr class="solid">
+	
+	<div class="footer-clean">
+        <footer>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>Hours</h3>
+                        <ul>
+                            <li>Mon. 9:00am - 7:00pm </li>
+                            <li>Tue. 9:00am - 7:00pm </li>
+                            <li>Wed. 9:00am - 7:00pm </li>
+							<li>Thurs. 9:00am - 7:00pm </li>
+							<li>Fri. 9:00am - 8:00pm </li>
+							<li>Sat. 9:00am - 6:00pm </li>
+							<li>Closed Sundays </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>Location</h3>
+                        <ul>
+                      
+                            <li>38 N. Charles Street Baltimore, MD 21210</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>Phone number</h3>
+                        <ul>
+                    
+                            <li>443-510-6600</li>
+                           
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a>
+                        <p class="copyright">K&M Salon © 2022</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+  
     
 </body>
 </html>
